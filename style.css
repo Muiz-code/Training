@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.padding {
+  padding: 20px 50px;
+}
+.width {
+  width: 100%;
 }
 nav {
   display: flex;
@@ -38,6 +47,7 @@ nav {
   color: white;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
 }
 .heroSection {
   padding: 0px 50px;
@@ -55,11 +65,20 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 80px 20px;
+  position: relative;
+}
+.textContainer img {
+  position: absolute;
+  width: 55%;
+
+  top: 40%;
 }
 .textContainer h1 {
-  font-size: 86px;
+  font-size: 93px;
   margin: 0;
   padding: 0;
+  z-index: 1000;
+  line-height: 100%;
 }
 .textContainer p {
   font-size: 28px;
@@ -70,6 +89,7 @@ nav {
   color: white;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .heroImgContainer {
@@ -80,4 +100,112 @@ nav {
 }
 .heroImgContainer img {
   width: 100%;
+}
+
+/* C  ard container */
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* background-color: black; */
+}
+.new-arrival {
+  position: relative;
+  width: 100%;
+}
+.new-arrival img {
+  position: absolute;
+  width: 7%;
+  top: 50%;
+  left: 8%;
+  z-index: -1;
+}
+.new-arrival h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card {
+  width: 30%;
+}
+.card img {
+  width: 100%;
+}
+.cardTextContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardText h1 {
+  font-size: 18px;
+}
+/* content */
+.content {
+  display: flex;
+}
+.contentImgContainer {
+  width: 50%;
+}
+.contentImgContainer img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.contentText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background: linear-gradient(
+    1.32deg,
+    #e0c340 0.13%,
+    #dfc23e 3.97%,
+    #e1c441 7.2%,
+    #e3c743 10.13%,
+    #e4c542 12.98%,
+    #e6c744 15.99%,
+    #e7c845 19.52%,
+    #e5c643 23.96%,
+    #e6c945 30.43%,
+    #e3c743 36.49%,
+    #e9ca48 42.49%,
+    #edce49 49.35%,
+    #f0d44c 55.42%,
+    #f4d84f 61.43%,
+    #f6da52 65.74%,
+    #f7db53 72.23%,
+    #f9dd55 77.43%,
+    #f9df56 83.84%,
+    #fae157 91.52%,
+    #f9df56 97.87%
+  );
+  line-height: 100%;
+}
+.contentText h1 {
+  font-size: 80px;
+}
+.contentText p {
+  font-size: 20px;
+  width: 60%;
+  line-height: 100%;
+}
+.contentText button {
+  padding: 20px 10px;
+  width: 25%;
+  background: #000000;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+.contentText button:hover {
+  transform: scale(1.1);
 }
