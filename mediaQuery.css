@@ -1,0 +1,101 @@
+@media (max-width: 480px) {
+  .padding {
+    padding: 20px 0px;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+  .imgContainer {
+    width: 70%;
+    justify-content: center;
+  }
+  .navItems {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+  }
+  .navItems ul {
+    padding: 0;
+  }
+  .navItems ul li a {
+    font-size: 10px;
+  }
+  .navItems button {
+    padding: 6px;
+    font-size: 10px;
+  }
+  .heroSection {
+    padding: 0px 10px;
+  }
+  .textContainer {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .textContainer h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .textContainer img {
+    top: 32%;
+    left: 23%;
+  }
+  .textContainer p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .textContainer button {
+    width: 100%;
+  }
+  .heroImgContainer {
+    display: none;
+  }
+  .cardSection {
+    padding: 20px 10px;
+  }
+  .new-arrival {
+    display: flex;
+    justify-content: center;
+  }
+  .new-arrival h1 {
+    font-size: 18px;
+  }
+  .new-arrival img {
+    width: 15%;
+    left: 52%;
+  }
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .contentImgContainer {
+    width: 100%;
+  }
+  .contentText {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .contentText h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .contentText p,
+  .contentText h3 {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  .contentText button {
+    width: 90%;
+  }
+}

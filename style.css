@@ -42,7 +42,7 @@ nav {
   color: black;
 }
 .navItems button {
-  padding: 10px 10px;
+  padding: 10px;
   background: #000000;
   color: white;
   border: 0;
@@ -107,7 +107,7 @@ nav {
 .cardContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: black; */
 }
 .new-arrival {
